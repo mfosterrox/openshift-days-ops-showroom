@@ -6,10 +6,6 @@
 **Format:** Hands-on lab +
 **Audience:** Security Engineers, Platform Engineers, IT Operations
 
-include::partial$console-access.adoc[]
-
-NOTE: The same admin credentials are used for the RHACS console.
-
 == Learning Objectives
 
 By the end of this module, you will:
@@ -174,10 +170,7 @@ Daily compliance scan for all profiles covering CIS, E8, Moderate, NERC-CIP, PCI
 * `ocp4-pci-dss` 
 * `ocp4-stig` 
 
-[NOTE]
-====
- There are many profiles to select but here we are selecting the most common profiles that are used in most organizations. If you want to only add the ones necessary for the lab. Select `ocp4-cis` & `ocp4-e8` only.
-====
+NOTE: There are many profiles to select but here we are selecting the most common profiles that are used in most organizations. If you want to only add the ones necessary for the lab. Select `ocp4-cis` & `ocp4-e8` only.
 
 [start=8]
 . Click *Next*
